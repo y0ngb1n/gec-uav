@@ -27,4 +27,18 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
     testCompile 'junit:junit:4.12'
+
+    allprojects {
+        repositories {
+            maven { url "https://jitpack.io" }
+        }
+    }
+
+    // 沉浸式状态栏 / 状态栏变色
+    compile 'com.jaeger.statusbaruitl:library:1.3.6'
+    // 支持 GIF
+    compile 'com.facebook.fresco:fresco:0.12.0'
+    compile 'com.facebook.fresco:animated-gif:0.12.0'
+    // 波浪效果
+    compile 'com.github.john990:WaveView:v0.9'
 }

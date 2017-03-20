@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--圆角-->
+    <corners android:radius="25dp" />
+    <!--填充-->
+    <solid android:color="@android:color/holo_blue_dark" />
+    <!--边框-->
+    <stroke
+        android:width="0.01dp"
+        android:color="@android:color/holo_blue_light" />
+    <!--<padding-->
+        <!--android:bottom="12dp"-->
+        <!--android:left="90dp"-->
+        <!--android:right="90dp"-->
+        <!--android:top="12dp" />-->
+    <size android:height="50dp" android:width="250dp" />
+</shape>

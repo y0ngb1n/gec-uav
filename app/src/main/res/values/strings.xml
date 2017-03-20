@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">UAV</string>
+    <string name="app_copyright">Copyright © 2017. Made by 杨斌.</string>
+    <!--引导页-->
+    <string name="app_guide_end">让梦启航</string>
+    <string name="app_guide_word_01">科技引领生活</string>
+    <string name="app_guide_word_02">放飞梦想</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- 用某种颜色填充某个形状 -->
+    <!--百分比 - 开头字母-->
+    <!--50% FF （16进制的半透明白色）-->
+    <solid android:color="#65FFFFFF" />
+    <!-- 用什么颜色的画笔 多宽的线条画某一个形状 -->
+    <stroke
+        android:width="0dp"
+        android:color="#80858175" />
+    <size android:width="10dp" android:height="10dp" />
+</shape>
